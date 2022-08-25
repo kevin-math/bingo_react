@@ -1,0 +1,25 @@
+.bingo-win-text {
+  font-size: 92px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 11;
+  background: -webkit-linear-gradient(#fcf804, #fc7100);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .bingo-win-text h1{
+    font-size: 20px !important;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .bingo-win-text{
+    font-size: 40px;
+  }
+}
